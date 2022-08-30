@@ -11,6 +11,7 @@
 # Determine which possible features we may want to use in the model, and identify the different algorithms we might consider.
 
 - Temperature (T) in the range 1.81°C to 37.11°C: higher temperature -> lower need of electricity to heat -> strong linear relationship between feature and target 
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 - Ambient Pressure (AP) in the range 992.89-1033.30 milibar: range of feature values very small and it seems that data is gathered on quite the same altitude above sea level. There is a relationship between PE and AP, but very low with a lot of outliers. Nevertheless we will use it as feature.
 
