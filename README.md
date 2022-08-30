@@ -46,14 +46,12 @@ The columns in the data consist of hourly average ambient variables:
 
 
 ## D Split your data to create a test set to evaluate the performance of your final model.  Then, using your training set, determine a validation strategy for comparing different models - a fixed validation set or cross-validation. Depending on whether you are using Excel, Python or AutoML for your model building, you may need to manually split your data to create the test set and validation set / cross validation folds.
-1. please see main.py for my code
-2. in a nutshell: my validation strategy contains 5 Splits. 
-3. for Lasso regression alpha determines the regularization strength. Alpha = 5 is chosen.
+1. in a nutshell: my validation strategy contains 5 Splits. Size of my Test Data is 15%
+2. for Lasso regression alpha determines the regularization strength. Alpha = 5 is chosen.
 
 ## E Use your validation approach to compare at least two different models (which may be either 1) different algorithms, 2) the same algorithm with different combinations of features, or 3) the same algorithm and features with different values for hyperparameters).  From among the models you compare, select the model with the best performance on your validation set as your final model.
-1. please see main.py for my code
-2. Cross validation scores for Linear Regression [0.91388442 0.9253434  0.92321194 0.91973593 0.91248973]
-3. Cross validation scores for Lasse Regression [0.91226576 0.92136475 0.9188066  0.9157939  0.91132286] 
+1. Cross validation scores for Linear Regression [0.91388442 0.9253434  0.92321194 0.91973593 0.91248973]
+2. Cross validation scores for Lasse Regression [0.91226576 0.92136475 0.9188066  0.9157939  0.91132286] 
 
 **-> validation scores very similar**
 
@@ -68,6 +66,6 @@ The columns in the data consist of hourly average ambient variables:
 2. Mean squared error for Lasso Regression: %.3f 26.192473675700715
 3. Mean absolute error for Lasso Regression: %.3f 3.9377032100491074
 ### Final model
-**-> Linear Regression**
+**-> Linear Regression with a high model generalization (R-Square over 90%)**
 
 
