@@ -1,4 +1,5 @@
-# power-plant-prediction
+# power-plant-prediction as course project for Machine Learning Foundations
+You can find this readme and source code here: https://github.com/amo011235/power-plant-prediction
 
 ## A Problem description
 In this project we will build a model to predict the electrical energy output of a Combined Cycle Power Plant, which uses a combination of gas turbines, steam turbines, and heat recovery steam generators to generate power.  We have a set of 9568 hourly average ambient environmental readings from sensors at the power plant which we will use in our model.
