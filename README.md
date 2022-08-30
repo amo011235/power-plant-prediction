@@ -19,7 +19,7 @@ The columns in the data consist of hourly average ambient variables:
 2. Based on the features and the target I assume a linear relationship between features and target -> I choose a parametric algorithm
 3. Our feature are continuous numbers as well as our target -> we face here a regression task
 4. for regression tasks we use mean absolute error (MAE) and mean squared error (MSE)
-5 in order to analyze how our model generalize the target for our test data set we additionally use the coefficient of determination (R^2)
+5. in order to analyze how our model generalize the target for our test data set we additionally use the coefficient of determination (R^2)
 
 ## C Determine which possible features we may want to use in the model, and identify the different algorithms we might consider.
 
