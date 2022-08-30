@@ -29,7 +29,7 @@
 
 6. regression task with parametric relationship between features and target
 7. baseline model: linear regression
-8. second model: ridge regression with regularization for better model generalization
+8. second model: lasso regression with regularization for better model generalization
 
 
 ## Split your data to create a test set to evaluate the performance of your final model.  Then, using your training set, determine a validation strategy for comparing different models - a fixed validation set or cross-validation. Depending on whether you are using Excel, Python or AutoML for your model building, you may need to manually split your data to create the test set and validation set / cross validation folds.
